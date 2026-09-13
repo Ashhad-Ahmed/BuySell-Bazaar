@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "lib": ["es2017", "dom"],
+    "types": ["react", "react-native"]
+  },
+  "include": [
+    "src",
+    "types/declaration.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
